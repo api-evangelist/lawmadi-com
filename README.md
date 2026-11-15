@@ -1,4 +1,4 @@
-# lawmadi-com
+# Lawmadi
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,118 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-lawmadi-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://lawmadi.com/
+Lawmadi provides a free AI-powered legal analysis platform covering over 60 fields such as unfair dismissal, divorce, and many other legal issues. The service leverages real national statutes from law.go.kr, offering AI-generated answers that are cross‑checked against official legislation. It includes features like real‑time law citation verification, AI‑driven case analysis, and upcoming lawyer‑search services. Lawmadi aims to give users clear, evidence‑based legal information, while clearly stating it does not replace professional legal counsel.
+
+**Areas:** LegalTech · AI · FreeService · Korean · Law
+
+## Lawmadi on APIs.io
+
+Everything profiled for Lawmadi is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lawmadi-com/](https://apis.io/providers/lawmadi-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Lawmadi Agent discovery API](https://apis.io/apis/lawmadi-com/lawmadi-com-agent-discovery-api/) — The Agent discovery API from Lawmadi — 8 operation(s) for agent discovery.
+- [Lawmadi Ask API](https://apis.io/apis/lawmadi-com/lawmadi-com-ask-api/) — The Ask API from Lawmadi — 1 operation(s) for ask.
+- [Lawmadi Ask Stream API](https://apis.io/apis/lawmadi-com/lawmadi-com-ask-stream-api/) — The Ask Stream API from Lawmadi — 1 operation(s) for ask stream.
+- [Lawmadi Pricing API](https://apis.io/apis/lawmadi-com/lawmadi-com-pricing-api/) — The Pricing API from Lawmadi — 2 operation(s) for pricing.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Lawmadi Agentic Access](https://apis.io/agentic-access/lawmadi-com/lawmadi-com-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Lawmadi API Rules](https://apis.io/rules/lawmadi-com/lawmadi-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lawmadi Authentication](https://apis.io/security/lawmadi-com/lawmadi-com-authentication/)
+- [Lawmadi Domain Security](https://apis.io/security/lawmadi-com/lawmadi-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Lawmadi Scopes](https://apis.io/scopes/lawmadi-com/lawmadi-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Lawmadi Plans Pricing](https://apis.io/plans/lawmadi-com/lawmadi-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lawmadi.com/)
+- [Documentation](https://lawmadi.com/about)
+- [Pricing](https://lawmadi.com/pricing)
+- [Terms of service](https://lawmadi.com/terms)
+- [Privacy policy](https://lawmadi.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 48.0** — developing · rubric 0.27.0 · scored 2026-11-15
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 47.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 27.9 |
+| Access clarity | 60.0 |
+
+**Agent readiness 54.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lawmadi-com/](https://apis.io/providers/lawmadi-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lawmadi: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lawmadi-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
